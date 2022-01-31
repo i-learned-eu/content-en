@@ -12,17 +12,17 @@ The communication is made in three parts: the establishment of the connection, t
 
 Don't worry, we will see more precisely what the acknowledgement and sequence numbers correspond to ;).
 
-![TCP Handshak](/static/img/tcp/tcp_handshake.png)
+![TCP Handshak](/static/img/tcp/tcp_handshake.webp)
 
 Once this initialization is done, the communication can start, so let's have a closer look at the content of a TCP packet, hang on there is a lot of content 😄. This part is largely based on [the wikipedia article of TCP](https://fr.wikipedia.org/wiki/Transmission_Control_Protocol#D%C3%A9veloppement_de_TCP). We will not detail the usefulness of each of these information, only the most important ones in our eyes.
 
-![TCP Header.png](/static/img/tcp/header_tcp.png)
+![TCP Header.webp](/static/img/tcp/header_tcp.webp)
 
 Acknowledgement and sequence numbers are two random values that are incremented with the number of data received to verify that all packets have arrived in order. The initial acknowledgement and sequence numbers are generated randomly during the connection initialization sequence we saw earlier, the three way handshaking.
 
 The "Checksum" part is in fact a condensation of the transmitted data which is calculated by the server and verified by the client in order to guarantee the integrity of the packets. If the hashes match then the packet is considered to have been transmitted without error. 
 
-![TCP Data Transfer](/static/img/tcp/tcp_data_transfer.png)
+![TCP Data Transfer](/static/img/tcp/tcp_data_transfer.webp)
 
 The `PSH` (push) flag indicates that data is being sent.
 
@@ -36,11 +36,11 @@ We have seen the most important parts of a TCP frame, now let's study how to clo
 
 To close a TCP session, it's quite simple, the first device sends a `FIN` packet to the second one with its sequence number, in order to check that all packets have been received before closing the communication. The server then replies with a `ACK` to confirm receipt of the message. The same exchange then takes place in the other direction, with the server sending a `FIN` packet and the client responding with a `ACK`.
 
-![TCP Connection](/static/img/tcp/tcp_connection.png)
+![TCP Connection](/static/img/tcp/tcp_connection.webp)
 
 Phew, that's a lot of stuff at once 😅. Now let's put it all into practice, if you've made it this far, you've done the hard part, well done 🎉.
 
-![TCP Frame](/static/img/tcp/frame_tcp.png)
+![TCP Frame](/static/img/tcp/frame_tcp.webp)
 
 You will probably notice the presence of `Win`; `TSval` and `TSecr`, let's look at what they correspond to
 
