@@ -5,6 +5,7 @@ Slug: pegasus
 Summary: On July 18, 2021 at 7 pm, Amnesty International revealed in an investigation in collaboration with Forbidden Stories that the Pegasus software, published by the Israeli company NSO Group, was used for espionage purposes against political activists, journalists, members of NGOs etc. In this article we will analyze the technical aspect of Pegasus spyware in its iOS version.
 Title: Pegasus, at the crossroads of technology and politics
 Translator: MorpheusH3x
+Lang: en
 
 On July 18, 2021 at 7pm, [Amnesty International](https://www.amnesty.org/en/) reveals in an investigation in collaboration with [Forbidden Stories](https://forbiddenstories.org/) that the Pegasus software, published by the Israeli company [NSO Group](https://www.nsogroup.com/), has been used for spying on political activists, journalists, members of NGOs etc. A few days later, we learned that the Moroccan state had bought its spying solution from NSO in order to wiretap many French ministers, but also Edwy Plenel, Eric Zemmour and Emmanuel Macron. This software had already been put under the spotlight in 2016 by [Citizen Lab](https://citizenlab.ca/) to denounce the same kind of practices. In this article we will analyze the technical aspect of Pegasus spyware in its iOS version.
 

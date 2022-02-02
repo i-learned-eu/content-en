@@ -5,6 +5,7 @@ Author: Eban
 Summary: Today we are tackling a big piece, the `TCP` protocol, are you ready? Here we go ;)
 Slug: tcp
 Translator: MorpheusH3x
+Lang: en
 
 Today we are tackling a big piece, the `TCP` protocol, are you ready? Here we go !) TCP (= Transmission Control Protocol) is the most used [layer 4 protocol](https://en.wikipedia.org/wiki/Transport_layer) and it is an integral part of our lives without us realizing it. TCP was created to address a simple problem, to enable reliable communication between two machines. TCP is based, like many protocols, on a `client-server` architecture. The data is broken down into blocks called segments.
 
