@@ -3,7 +3,7 @@ summary: Nowadays the web is widely used, a protocol is behind this success: HTT
 slug: http
 Keywords: HTTPS, HTTP, web, internet
 Date: 2021-05-08
-author: Ramle
+author: Ada
 Translator: MorpheusH3x
 Status: draft
 
@@ -28,10 +28,10 @@ We can look deeper into HTTP by looking at the network transmissions:
 The data part, the one which contains the page itself is not directly visible here, I let you look at the network dump on wireshark, it is available [here](/static/misc/http.pcap).
 
 
-Another interesting aspect of HTTP are the headers that give information to the client about the server, and vice versa. On the client side for example, we have the "Host" header which gives the domain name requested by the client, this allows to distribute a different content depending on it. The server can give the type of content via "Content-Type". There are many other possible headers, if you want to look at the one for a URL the `curl` command allows this via the `-I` option, for example for [https://ramle.be](https://ramle.be) :
+Another interesting aspect of HTTP are the headers that give information to the client about the server, and vice versa. On the client side for example, we have the "Host" header which gives the domain name requested by the client, this allows to distribute a different content depending on it. The server can give the type of content via "Content-Type". There are many other possible headers, if you want to look at the one for a URL the `curl` command allows this via the `-I` option, for example for [https://ada.wf](https://ada.be) :
 
 ```bash
-% curl -I https://ramle.be
+% curl -I https://ada.wf
 HTTP/2 200 
 server: nginx
 date: Sat, 08 May 2021 14:40:55 GMT
@@ -40,7 +40,7 @@ content-length: 1992
 last-modified: Fri, 23 Apr 2021 18:18:34 GMT
 vary: Accept-Encoding
 etag: "60830f7a-7c8"
-content-security-policy: default-src 'none'; style-src cdn.ramle.be; img-src cdn.ramle.be
+content-security-policy: default-src 'none'; style-src cdn.ada.wf; img-src cdn.ada.be
 x-frame-options: SAMEORIGIN
 x-xss-protection: 1; mode=block
 x-content-type-options: nosniff

@@ -1,7 +1,7 @@
 Title: How does DNSSEC works?
 Keywords: DNSSEC, DNS, sécurité, DS, NSEC, RSSIG, KSK, ZSK
 Date: 2021-04-29
-author: Ramle
+author: Ada
 summary: Today, we are going to talk about how DNSSEC works and see the different risks that this mechanism solves or not.
 slug: dnssec
 status: draft

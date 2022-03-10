@@ -1,7 +1,7 @@
 title: How DNS over TLS and DNS over HTTPS works ?
 Keywords: DoT, DNS, DoH, sécurité, TLS, HTTPS, DNS over HTTPS, DNS over TLS, vie privée, privacy
 Date: 2021-04-30
-author: Ramle
+author: Ada
 summary: In today's article we will see how DNS over TLS and DNS over HTTPS work.
 Slug: dot-doh
 Status: draft

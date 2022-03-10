@@ -1,4 +1,4 @@
-Author: Ramle 
+Author: Ada 
 Date: 2021/07/20
 Keywords: sécurité
 Slug: mac
@@ -20,7 +20,7 @@ We can view the permissions via the command `ls -l <folder>` :
 ```jsx
 % ls -l
 total 0
--rwxr-xr-x 1 ramle ramle 0 Jul 19 17:05 executable
+-rwxr-xr-x 1 ada ada 0 Jul 19 17:05 executable
 -rw------- 1 root  root  0 Jul 19 17:05 root_only
 ```
 
